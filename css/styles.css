@@ -41,6 +41,7 @@ html {
     --third-white-color: #F5F4FA;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --black-color: #000000;
+    --fill-color-icons: #AFB1B8;
 }
 
 .container {
@@ -365,8 +366,24 @@ header .container {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    /* background-color: var(--accent-color); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
     background-color: var(--accent-color);
-    display: block;
+}
+
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon {
+    fill: var(--white-color);
+}
+
+.team-soc-icon {
+    fill: var(--fill-color-icons);
 }
 
 /* Footer */
