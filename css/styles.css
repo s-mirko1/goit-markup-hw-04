@@ -269,6 +269,22 @@ header .container {
     color: var(--second-text-color);
 }
 
+.benefits-soc-link {
+    width: 270px;
+    height: 120px;
+    left: 215px;
+    top: 774px;
+    
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+
+.benefits-soc-icon {
+    width: 70px;
+    height: 70px;
+}
+
 /* Product */
 
 .product {
@@ -386,6 +402,55 @@ header .container {
     fill: var(--fill-color-icons);
 }
 
+/* Clients */
+.clients {
+    background-color: var(--secondary-white-color);
+}
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.clients-logo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 0;
+}
+
+.clients-logo-item {
+}
+
+.clients-logo-link {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 5px;
+    /* background-color: var(--accent-color); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients-logo-icon {
+    fill: var(--fill-color-icons);
+}
+
+.clients-logo-link:hover,
+.clients-logo-link:focus {
+    border-color: var(--accent-color);
+}
+
+.clients-logo-link:hover .clients-logo-icon,
+.clients-logo-link:focus .clients-logo-icon {
+    fill: var(--accent-color);
+}
+
 /* Footer */
 
 .contacts {
@@ -440,6 +505,60 @@ header .container {
     color: var(--accent-color);
 }
 
+.footer-container {
+    display: flex;
+    gap: 70px;
+    
+}
+
+.contacts-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.contacts-soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0;
+}
+
+.contacts-soc-item {}
+
+.contacts-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    /* background-color: var(--accent-color); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-soc-icon {
+    fill: var(--white-color);
+}
+
+.contacts-soc-link:hover,
+.contacts-soc-link:focus {
+    background-color: var(--accent-color);
+}
+
+.contacts-soc-link:hover .contacts-soc-icon,
+.contacts-soc-link:focus .contacts-soc-icon {
+    fill: var(--white-color);
+}
+
+.footer-box-second {
+    padding-top: 24px;
+}
+
+
 /* Portfolio */
 
 .portfolio {
@@ -452,6 +571,7 @@ header .container {
     padding-left: 0;
     margin-bottom: 50px;
 }
+
 
 .portfolio-btn {
     cursor: pointer;
