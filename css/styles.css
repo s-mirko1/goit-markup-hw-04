@@ -138,7 +138,7 @@ img {
     padding-left: 0;
     display: flex;
     margin-left: auto;
-
+   
 }
 
 .auth-nav-link {
@@ -153,9 +153,7 @@ img {
     
 }
 
-.
-
-.site-nav-link:hover
+.site-nav-link:hover,
 .site-nav-link:focus {
     color: var(--accent-color);
     outline: 0;
@@ -639,6 +637,7 @@ header .container {
     padding: 6px 22px;
     border-radius: 4px;
     border: transparent;
+    
 }
 
 
@@ -647,6 +646,7 @@ header .container {
     color: var(--white-color);
     background-color: var(--accent-color);
     outline: 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-list {
@@ -660,6 +660,11 @@ header .container {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-item-title {
